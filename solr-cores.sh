@@ -198,7 +198,7 @@ docker exec -it solr-container curl -X POST -H "Content-Type: application/json" 
         "uninvertible": true
       }
     ]
-  }' http://localhost:8983/solr/$CORE_NAME_2/schema
+  }' http://localhost:8983/solr/$CORE_NAME_3/schema
 
 # docker cp managed-schema.xml solr-container:/var/solr/data/$CORE_NAME_2/conf/managed-schema
 # docker cp managed-schema solr-container:/var/solr/data/$CORE_NAME_2/conf/managed-schema
